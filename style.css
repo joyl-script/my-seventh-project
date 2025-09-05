@@ -1,0 +1,26 @@
+/* Таблица */
+table {
+  border-collapse: collapse;   /* объединяет двойные границы */
+  width: 400px;                /* фиксированная ширина */
+  margin: 20px 0;              /* отступ сверху и снизу, без центрирования */
+  font-family: Arial, sans-serif;
+  font-size: 14px;             /* компактный размер шрифта */
+}
+
+/* Границы и ячейки */
+table, th, td {
+  border: 1px solid black;
+  padding: 6px 8px;            /* уменьшенные отступы */
+  text-align: center;
+}
+
+/* Заголовки */
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Чередование строк */
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
